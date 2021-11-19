@@ -83,7 +83,7 @@ Task Status: Pending
 
 Task:
 ---> design the fifth segment (client testimonials)
-Task Status: Pending
+Task Status: Done
 
 ---
 
