@@ -12,3 +12,20 @@
     background-size: cover;
     background-position:center;
 }
+
+
+/* Abdullahi Adebayo Abdullahi third segment stye */
+.p{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+
+.image {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 300px;
+}
