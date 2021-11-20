@@ -16,7 +16,7 @@
 
 /* inserted by Fatodu Samuel for the testimonial cards */
 .testimonialImg {
-  @apply rounded-full w-1/5 my-16 mx-auto;
+  @apply rounded-full w-1/5 mx-auto;
 }
 
 .testimonialPara {
