@@ -107,7 +107,7 @@ Task Status: Done
 
 Task:
 ---> work on all the active/hover states of the page
-Task Status: Pending
+Task Status: Ongoing
 
 ---
 
@@ -123,7 +123,7 @@ Task Status: Pending
 
 Task:
 ---> work on the responsiveness of the page
-Task Status: Pending
+Task Status: Ongoing
 
 ---
 
