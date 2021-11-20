@@ -39,7 +39,7 @@ Task :
 ---> Include necessary variants and extends in tailwind.config.js
 ---> Import the fonts family
 ---> Create Group repository and monitor every pull request
-Task Status: Pending
+Task Status: Ongoing
 
 ---
 
@@ -51,7 +51,7 @@ Task :
 ---> link favicon to the head from the img file
 ---> design the nav bar section of the page without the active states on desktop view
 ---> design the first segment (we are creatives with the arrow and image)
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -83,7 +83,7 @@ Task Status: Pending
 
 Task:
 ---> design the fifth segment (client testimonials)
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -91,7 +91,7 @@ Task Status: Pending
 
 Task:
 ---> design the sixth segment (four well positioned images)
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -99,7 +99,7 @@ Task Status: Pending
 
 Task:
 ---> design the footer of the page without the active states
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -107,7 +107,7 @@ Task Status: Pending
 
 Task:
 ---> work on all the active/hover states of the page
-Task Status: Pending
+Task Status: Ongoing
 
 ---
 
@@ -123,7 +123,7 @@ Task Status: Pending
 
 Task:
 ---> work on the responsiveness of the page
-Task Status: Pending
+Task Status: Ongoing
 
 ---
 
