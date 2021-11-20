@@ -59,7 +59,7 @@ Task Status: Done
 
 Task:
 ---> design the second segment (transform your brand) add the egg image to the right without the active states
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -67,7 +67,7 @@ Task Status: Pending
 
 Task:
 ---> design the thrid segment (stand out to the right audience) and add the cup image to the left without the active states
-Task Status: Pending
+Task Status: Done
 
 ---
 
