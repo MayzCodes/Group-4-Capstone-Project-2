@@ -13,6 +13,15 @@
   background-size: cover;
   background-position: center;
 }
+/* Damilola Idris Created this for desktop bakground image */
+.left {
+  background-image: url("../public/img/desktop/image-graphic-design.jpg");
+}
+.right {
+  background-image: url("../public/img/desktop/image-photography.jpg")
+}
+
+
 
 /* inserted by Fatodu Samuel for the testimonial cards */
 .testimonialImg {
