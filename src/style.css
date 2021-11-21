@@ -16,12 +16,16 @@
 /* Damilola Idris Created this for desktop bakground image */
 .left {
   background-image: url("../public/img/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .right {
-  background-image: url("../public/img/desktop/image-photography.jpg")
+  background-image: url("../public/img/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-
 
 /* inserted by Fatodu Samuel for the testimonial cards */
 .testimonialImg {
