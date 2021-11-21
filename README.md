@@ -75,7 +75,7 @@ Task Status: Done
 
 Task:
 ---> design the fourth segment (graphic design and photography with the images)
-Task Status: Pending
+Task Status: Done
 
 ---
 
@@ -107,7 +107,7 @@ Task Status: Done
 
 Task:
 ---> work on all the active/hover states of the page
-Task Status: Ongoing
+Task Status: Done
 
 ---
 

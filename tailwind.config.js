@@ -17,16 +17,21 @@ module.exports = {
         },
         secondary: {
           100: 'rgb(138,209,195)'
-        },
+        }
       },
       fontFamily: {
         small: ['Barlow'],
         big: ['Fraunces'],
+      },
+      fill: {
+        100: 'hsl(0, 0%, 100%)',
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fill: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }
