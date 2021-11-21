@@ -22,7 +22,7 @@
         <div
           class="
             container
-            mx-auto
+            md:mx-auto
             flex flex-wrap
             p-5
             flex-col
@@ -38,11 +38,9 @@
               font-medium
               items-center
               text-gray-900
-              mb-4
-              md:mb-0
             "
           >
-            <span class="ml-3 text-3xl font-bold font-small text-white"
+            <span class="ml-2 text-2xl xl:text-3xl font-bold font-small text-white"
               >sunnyside</span
             >
           </a>
@@ -121,14 +119,24 @@
           uppercase
           text-white
           font-bold font-big
-          text-center text-5xl
+          text-center
+          text-3xl
+          xxs:text-4xl
+          xs:text-5xl
+          lg:text-6xl
+          2xl:text-8xl
           tracking-widest
-          mt-16
+          mt-14
+          2xl:mt-32
+          mb-8
+          xl:mb-24
+          2xl:mb-40
         "
       >
         We are creatives
       </h1>
-      <img src="./img/icon-arrow-down.svg" alt="" class="block mx-auto mt-10" />
+      <img src="./img/icon-arrow-down.svg" alt="" class="block mx-auto 2xl:w-18
+      2xl:h-48" />
     </section>
     <!-- Ends Here -->
 
@@ -147,11 +155,12 @@
         <div class="flex-1 flex justify-center flex-col mt-14">
           <h2
             class="
-              xl:px-20 xl:text-5xl
+              xl:px-20 
               font-big font-extrabold
               text-3xl
+              xl:text-4xl
               pb-6
-              px-8
+              mx-8
               text-center
               md:text-left
             "
@@ -161,14 +170,15 @@
           <p
             class="
               pb-8
-              px-9
+              mx-8
+              leading-6
               text-primary-300
               md:text-left
               text-sm
               font-semibold
               text-center
               md:text-sm
-              xl:px-20 xl:text-lg
+              xl:px-20
             "
           >
             We are a full-service creative agency specializing in helping brands
@@ -181,14 +191,16 @@
               uppercase
               flex
               justify-center
-              md:justify-start md:pl-11
+              md:justify-start 
               cursor-pointer
               text-center
-              xl:pl-20
               text-sm
               font-bold
-              px-8
+              mx-8
+              md:pl-0
+              xl:pl-20
               pb-10
+              md:pb-0
             "
           >
             Learn more</a
@@ -240,10 +252,12 @@
               font-big font-extrabold
               text-3xl
               pb-6
-              px-10
+              mx-4
+              md:pl-7
+              md:pr-7
               text-center
               md:text-left
-              xl:px-20 xl:text-5xl
+              xl:px-20 xl:text-4xl
             "
           >
             Stand out to the right audience
@@ -251,18 +265,21 @@
           <p
             class="
               pb-8
-              px-10
+              mx-12
+              md:mx-11
+              lg:mx-12
+              leading-6
               text-primary-300
               md:text-left
               text-sm
               font-semibold
               text-center
               md:text-sm
-              xl:px-20 xl:text-lg
+              xl:px-12
             "
           >
             Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we"ll build and etend
+            photographers, videographers, and copywriters, we'll build and etend
             your brand in digital places.
           </p>
           <a
@@ -271,13 +288,17 @@
               uppercase
               flex
               justify-center
-              md:justify-start md:pl-11
+              md:justify-start 
               text-sm
               font-bold
               cursor-pointer
               text-center
+              mx-8
+              xl:mx-4
+              md:pl-3
               xl:pl-20
-              px-8
+              pb-10
+              md:pb-0
             "
             >learn more</a
           >
@@ -289,7 +310,7 @@
     <!-- Fourth Section Start Here -->
     <section id="GraphicdesignSection">
       <div class="md:flex block">
-        <div class="left md:w-1/2 pt-96 pb-14">
+        <div class="left md:w-1/2  pt-96 pb-14">
           <h2
             class="
               font-big font-extrabold
@@ -301,13 +322,13 @@
           >
             Graphic design
           </h2>
-          <p class="text-center text-primary-300 md:px-32 font-bold">
+          <p class="text-center text-primary-300 text-sm md:text-md px-6 md:px-48 md:leading-6 font-bold">
             Great Design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
             attention.
           </p>
         </div>
-        <div class="right md:w-1/2 pt-96 pb-14">
+        <div class="right md:w-1/2  pt-96 pb-14">
           <h2
             class="
               font-big font-extrabold
@@ -319,7 +340,7 @@
           >
             Photography
           </h2>
-          <p class="text-center text-primary-300 md:px-32 font-bold">
+          <p class="text-center text-primary-300 text-sm md:text-md px-6 md:px-48 md:leading-6 font-bold">
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.
           </p>
@@ -336,7 +357,8 @@
         <h2
           class="
             text-center
-            pt-36
+            pt-16
+            md:pt-32
             font-big
             text-xl
             font-black
