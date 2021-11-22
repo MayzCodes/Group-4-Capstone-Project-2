@@ -25,8 +25,9 @@ module.exports = {
           900: 'hsl(7, 99%, 70%)',
         },
         secondary: {
-          100: 'rgb(138,209,195)'
-        }
+          100: 'rgb(138,209,195)',
+          200: 'hsl(49,100%,50%)',
+        },
       },
       fontFamily: {
         small: ['Barlow'],
