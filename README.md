@@ -119,7 +119,7 @@ Task Status: Pending
 
 ---
 
-## Name: Simon Git
+## Name: Simon G
 
 Task:
 ---> work on the responsiveness of the page
