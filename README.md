@@ -123,7 +123,7 @@ Task Status: Pending
 
 Task:
 ---> work on the responsiveness of the page
-Task Status: Ongoing
+Task Status: Done
 
 ---
 
@@ -132,4 +132,4 @@ Task Status: Ongoing
 Task:
 ---> design the nav bar for the mobile page
 
-Task Status: Pending
+Task Status: Done
