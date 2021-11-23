@@ -27,6 +27,7 @@ module.exports = {
         secondary: {
           100: 'rgb(138,209,195)',
           200: 'hsl(49,100%,50%)',
+          300: 'hsl(164,47%,31%)',
         },
       },
       fontFamily: {
