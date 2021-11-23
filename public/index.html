@@ -22,7 +22,7 @@
         <div
           class="
             container
-            mx-auto
+            md:mx-auto
             flex flex-wrap
             p-5
             flex-col
@@ -136,12 +136,50 @@
                 const btn = document.querySelector("button.mobile-menu-button");
                 const menu = document.querySelector(".mobile-menu");
 
+
+        <!-- Mobile menu button -->
+        <div class="sm:hidden flex items-center">
+          <button class="outline-none mobile-menu-button">
+          <svg class=" w-6 h-6 text-white"
+            x-show="!showMenu"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+        </div>
+      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+      <ul class="bg-white text-center">
+        <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">About</a></li>
+        <li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300 ">Services</a></li>
+        <li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Projects</a></li>
+        <li><a href="#contact" class="block text-sm px-10 py-4 rounded-full bg-secondary-200 transition duration-300">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      const btn = document.querySelector("button.mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </nav>
                 btn.addEventListener("click", () => {
                   menu.classList.toggle("hidden");
                 });
               </script>
             </nav>
           </div>
+
 
           <nav
             class="
@@ -199,12 +237,11 @@
                 uppercase
                 font-big
                 text-xs
-                shadow-md
                 focus:outline-none
                 rounded-3xl
                 mt-4
                 md:mt-0
-                hover:bg-blue-500 hover:bg-opacity-5 hover:text-white
+                hover:bg-blue-100 hover:bg-opacity-50 hover:text-white
                 hidden
                 md:block
               "
@@ -215,18 +252,11 @@
         </div>
       </header>
       <h1
-        class="
-          uppercase
-          text-white
-          font-bold font-big
-          text-center text-5xl
-          tracking-widest
-          mt-16
-        "
+        class="creatives"
       >
         We are creatives
       </h1>
-      <img src="./img/icon-arrow-down.svg" alt="" class="block mx-auto mt-10" />
+      <img src="./img/icon-arrow-down.svg" alt="" class="block mx-auto 2xl:w-18 2xl:h-48" />
     </section>
     <!-- Ends Here -->
 
@@ -242,16 +272,17 @@
           bg-primary-900 bg-opacity-5
         "
       >
-        <div class="flex-1 flex justify-center flex-col mt-14">
+        <div class="flex-1 flex justify-center flex-col mt-10">
           <h2
             class="
               xl:px-20 xl:text-5xl
-              font-big font-extrabold
+              font-big font-black
               text-3xl
               pb-6
               px-8
               text-center
               md:text-left
+              text-primary-400
             "
           >
             Transform your brand
@@ -260,13 +291,15 @@
             class="
               pb-8
               px-9
-              text-primary-300
+              text-primary-200
               md:text-left
-              text-sm
+              text-md
               font-semibold
               text-center
               md:text-sm
               xl:px-20 xl:text-lg
+              leading-6
+              font-small
             "
           >
             We are a full-service creative agency specializing in helping brands
@@ -279,14 +312,16 @@
               uppercase
               flex
               justify-center
-              md:justify-start md:pl-11
+              md:justify-start md:pl-10
               cursor-pointer
               text-center
               xl:pl-20
-              text-sm
-              font-bold
+              text-md
               px-8
               pb-10
+              text-primary-400
+              font-big
+              font-black
             "
           >
             Learn more</a
@@ -332,16 +367,17 @@
             class="md:hidden"
           />
         </div>
-        <div class="flex-1 flex justify-center flex-col mt-14 md:mt-0">
+        <div class="flex-1 flex justify-center flex-col mt-10">
           <h1
             class="
-              font-big font-extrabold
+              font-big font-black
               text-3xl
               pb-6
               px-10
               text-center
               md:text-left
               xl:px-20 xl:text-5xl
+              text-primary-400
             "
           >
             Stand out to the right audience
@@ -350,17 +386,19 @@
             class="
               pb-8
               px-10
-              text-primary-300
+              text-primary-200
               md:text-left
-              text-sm
+              font-small
+              text-md
               font-semibold
               text-center
               md:text-sm
               xl:px-20 xl:text-lg
+              leading-6
             "
           >
             Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we"ll build and etend
+            photographers, videographers, and copywriters, we'll build and extend
             your brand in digital places.
           </p>
           <a
@@ -370,13 +408,15 @@
               flex
               justify-center
               md:justify-start md:pl-11
-              text-sm
-              font-bold
+              text-md
               cursor-pointer
               text-center
               xl:pl-20
               px-8
               pb-10
+              text-primary-400
+              font-black
+              font-big
             "
             >learn more</a
           >
@@ -391,17 +431,17 @@
         <div class="left md:w-1/2 pt-96 pb-14">
           <h2
             class="
-              font-big font-extrabold
-              text-3xl text-primary-300
+              font-big font-black
+              text-3xl text-primary-700
               pb-6
               px-10
               text-center
             "
           >
-            Graphic design
+            Graphic Design
           </h2>
-          <p class="text-center text-primary-300 md:px-32 font-bold">
-            Great Design makes you memorable. We deliver artwork that
+          <p class="text-center font-small text-primary-700 font-semibold text-md px-6 md:px-10 xl:px-48 md:leading-6">
+            Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients’
             attention.
           </p>
@@ -409,8 +449,8 @@
         <div class="right md:w-1/2 pt-96 pb-14">
           <h2
             class="
-              font-big font-extrabold
-              text-3xl text-primary-300
+              font-big font-black
+              text-3xl text-primary-600
               pb-6
               px-10
               text-center
@@ -418,7 +458,7 @@
           >
             Photography
           </h2>
-          <p class="text-center text-primary-300 md:px-32 font-bold">
+          <p class="text-center font-small text-primary-600 font-semibold text-md px-6 md:px-10 xl:px-48 md:leading-6">
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.
           </p>
@@ -567,7 +607,7 @@
         <h1
           class="
             font-small font-extrabold
-            text-3xl text-primary-700 text-center
+            text-3xl text-secondary-300 text-center
             pt-16
             pb-8
           "
@@ -576,7 +616,7 @@
         </h1>
         <div class="mx-auto w-max">
           <ul
-            class="flex flex-auto gap-10 mb-16 text-primary-700 font-semibold"
+            class="flex flex-auto gap-10 mb-16 text-primary-500 font-semibold"
           >
             <li class="hover:text-white cursor-pointer">About</li>
             <li class="hover:text-white cursor-pointer">Services</li>
