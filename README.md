@@ -28,7 +28,7 @@ Task :
 ---> Include necessary variants and extends in tailwind.config.js
 ---> Import the fonts family
 ---> Create Group repository and monitor every pull request
-Task Status: Ongoing
+Task Status: Done
 
 ---
 
