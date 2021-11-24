@@ -1,10 +1,5 @@
 # Group-4-Capstone-Project-2
 
-Hello everyone, You are welcome to Group 4 Capstone Project 2
-
-NOTE: Please read and read over again so as to assimilate the project structure and your contribution. If you don't understand
-please reachout to Team Lead or Assistant Team Lead. Check their details below.
-
 #Team Lead
 name: Samuel Fatodu
 telegram username: @SamCares4real
@@ -19,15 +14,9 @@ sidehustle id: SH-IT-0093716
 
 ---
 
-## MY CONTRIBUTION
+## TEAM CONTRIBUTIONS
 
 ---
-
-Pay attention to this section. Here we have names and task assigned to each group member.
-
-#Git Setup
--> Before you do anything, You have to create a new branch.
--> Create a pull request with a well commited task
 
 ## Name : Samuel Fatodu - Administrative task
 
@@ -108,14 +97,6 @@ Task Status: Done
 Task:
 ---> work on all the active/hover states of the page
 Task Status: Done
-
----
-
-## Name: Timothy Awogbuyi
-
-Task:
----> add all images for the mobile design
-Task Status: Pending
 
 ---
 
